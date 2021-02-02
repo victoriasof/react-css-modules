@@ -1,0 +1,35 @@
+.section {
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.test {
+    color: yellow;
+}
+
+.test span {
+    color: red;
+}
+
+.section:hover {
+    background: green;
+}
+
+.test input {
+    margin-left: 50px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .section {
+        background: red;
+    }
+}
